@@ -4,5 +4,4 @@ The project aims to develop an efficient and robust solution by leveraging the c
 One of the standout features of our system is the implementation of Geofencing, which allows for the definition of virtual boundaries. When a device crosses these predefined boundaries, automatic alerts are triggered, ensuring timely responses.
 Additionally, we integrate fall detection capabilities using Arduino, which can identify sudden falls and immediately alert emergency contacts.
 
-
-                                                                         ![image](https://github.com/user-attachments/assets/befe261e-907d-48d0-bfac-aab519deeeee)
+![image](https://github.com/user-attachments/assets/befe261e-907d-48d0-bfac-aab519deeeee)
