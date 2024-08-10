@@ -1,0 +1,26 @@
+##Code Snippet for Geo Fencing:
+
+geofence_latitude = 37.7749
+geofence_longitude = -122.4194
+geofence_radius_meters = 100  # Radius of 100 meters
+ 
+# Function to check if current location breaches geofence
+def check_geofence(current_latitude, current_longitude):
+    distance_from_center = calculate_distance(geofence_latitude, geofence_longitude, current_latitude, current_longitude)
+    if distance_from_center <= geofence_radius_meters:
+        return True  # Inside geofence
+    else:
+        return False  # Outside geofence
+ 
+# Function to calculate distance between two GPS coordinates
+def calculate_distance(lat1, lon1, lat2, lon2):
+    # Haversine formula for distance calculation
+    # Implementation omitted for brevity (can be implemented using libraries like geopy)
+    pass
+# Example usage:
+current_latitude = 37.7750
+current_longitude = -122.4195
+If check_geofence(current_latitude, current_longitude):
+    print("Inside geofence")
+else:
+    print("Outside geofence")
